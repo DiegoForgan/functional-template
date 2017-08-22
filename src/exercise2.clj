@@ -2,5 +2,5 @@
 
 (defn only-greater-than-five
   "Filters the elements on a list which are greater than five."
-  [x]
-  (filter (fn [x] (< 5 x)) x))
+  [elements]
+  (filter (fn [elements] (< 5 elements)) elements))
